@@ -14,7 +14,7 @@ This repository contains a simple REST API for managing product data. It provide
 1. Clone this repository:
    
    ```bash
-   git clone https://github.com/esinniobiwaquareeb/simple-product-api.git
+   git clone https://github.com/esinniobiwaquareeb/nodejs-product-api.git
    ```
 
 2. Navigate to the project directory:
@@ -104,30 +104,7 @@ curl -X DELETE http://localhost:3000/products/1234
 
 ## Test Result
 
-  console.log
-    Server is running on port 3000
-      at Server.<anonymous> (src/server.ts:106:11)
-
-  console.log
-    MongoDB connected
-      at src/server.ts:18:23
-
- PASS  __tests__/product.test.ts
-  Product API
-    ✓ should get all products (83 ms)
-    ✓ should get a single product by ID (30 ms)
-    ✓ should create a new product (26 ms)
-    ✓ should update an existing product (32 ms)
-    ✓ should delete a product (35 ms)
-    ✓ should return 404 for getting a non-existent product (3 ms)
-    ✓ should return 404 for updating a non-existent product (3 ms)
-    ✓ should return 404 for deleting a non-existent product (2 ms)
-
-Test Suites: 1 passed, 1 total
-Tests:       8 passed, 8 total
-Snapshots:   0 total
-Time:        1.444 s, estimated 2 s
-Ran all test suites.
+https://imgur.com/a/Ypd6tJE
 
 ## Contributors
 
