@@ -104,7 +104,7 @@ curl -X DELETE http://localhost:3000/products/1234
 
 ## Test Result
 
-![Product API Test Result](https://imgur.com/a/Ypd6tJE)
+![Product API Test Result](https://i.imgur.com/EbMxUg7.png)
 
 
 ## Contributors
