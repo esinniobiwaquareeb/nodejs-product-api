@@ -40,15 +40,19 @@ This repository contains a simple REST API for managing product data. It provide
 
 ## Usage
 
-1. Start the server:
-
+1. Compile the Code:
    ```bash
-   npm start
+   npx tsc
+   ```
+   
+2. Start the server:
+   ```bash
+   npx ts-node src/server.ts
    ```
 
-2. The server will start running on `http://localhost:3000`.
+3. The server will start running on `http://localhost:3000`.
 
-3. You can now use the following endpoints:
+4. You can now use the following endpoints:
 
    - **Retrieve all products**: `GET /products`
    - **Retrieve a single product by ID**: `GET /products/:id`
